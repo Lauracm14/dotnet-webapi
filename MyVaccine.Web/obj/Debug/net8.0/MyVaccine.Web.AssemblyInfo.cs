@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyVaccine.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48f69313b1978921be03a28752efa6bdb2ba59fe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f48f9481018938a29516ee3fdafcc9a29ea4fb06")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyVaccine.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyVaccine.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
