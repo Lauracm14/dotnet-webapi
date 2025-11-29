@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  myvaccine.web:
+    image: ${DOCKER_REGISTRY-}myvaccineweb
+    build:
+      context: .
+      dockerfile: MyVaccine.Web/Dockerfile
+    ports:
+      - "5000:8080"
+      - "5001:8081"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080

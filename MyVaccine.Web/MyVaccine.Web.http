@@ -1,0 +1,6 @@
+@MyVaccine.Web_HostAddress = http://localhost:5195
+
+GET {{MyVaccine.Web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
